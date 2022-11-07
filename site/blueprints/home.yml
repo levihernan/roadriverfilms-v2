@@ -1,0 +1,18 @@
+title: Home
+pages: project
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  quote:
+    label: Quote
+    type: text
+    width: 1/2
+  author:
+    label: Author
+    type: text
+    width: 1/2
+  text:
+    label: Text
+    type:  textarea
