@@ -26,9 +26,14 @@
 
 					    <?php foreach(page()->children() as $page):?>
 
-					      <a class="section-link" href="<?= $page->url() ?>">
-					          <?= $page->title() ?>
-					      </a>
+								<div class="project-index-item">
+						      <a class="section-link" href="<?= $page->url() ?>">
+						          <b><?= $page->title() ?></b>
+											<?php if ($page->author()!=""): ?>
+												<span class="smol"> by <?= $page->author() ?></span>
+											<?php endif ?>
+						      </a>
+								</div>
 
 					    <?php endforeach ?>
             </div>

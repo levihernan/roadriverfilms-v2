@@ -5,6 +5,9 @@ fields:
   title:
     label: Title
     type:  text
+  author:
+    label: Author
+    text: text
   text:
     label: Text
     type:  textarea

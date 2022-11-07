@@ -122,6 +122,9 @@ p.right{
 .smol-bold{
   font-weight: 500
 }
+.project-index-item {
+  height: 40px
+}
 
 @media screen and (max-width: 1100px) {
   #myVideo{
