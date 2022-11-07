@@ -108,8 +108,19 @@ p.right{
   height: 100%;
 }
 
-.project-link{
+.section-link{
+  color: black;
+  text-align: center;
   text-decoration: none;
+  font-size: 24px;
+}
+.section-text{
+  font-size: 20px;
+  line-height: 20px;
+  padding: 5px;
+}
+.smol-bold{
+  font-weight: 500
 }
 
 @media screen and (max-width: 1100px) {

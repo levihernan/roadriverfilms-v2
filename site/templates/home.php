@@ -8,19 +8,19 @@
   </video>
 
   <div class="content">
-    <h1>Road River Films</h1>
     <p><span class="quote">“<?= page()->quote() ?>"</span><br><span class="quoted"><?= page()->author() ?></span></p>
     <p>info@roadriverfilms.com</p>
   </div>
 
   <div class="content content-right">
+    <h1>Road River Films</h1>
 
     <?php foreach(page()->children() as $page):?>
 
       <a class="section-link" href="<?= $page->url() ?>">
-        <h2>
+        <span>
           <?= $page->title() ?>
-        </h2>
+        </span>
       </a>
 
     <?php endforeach ?>

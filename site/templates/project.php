@@ -20,8 +20,10 @@
     <div id="page-wrap" class="imagenes">
         <div class="post text">
             <div class="">
-          		<h1><?php echo $page->title()->html() ?></h1>
-          		<?php echo $page->text()->kirbytext() ?>
+          		<span class="section-link smol-bold"><?php echo $page->title()->html() ?></span>
+							<div class="section-text">
+								<?php echo $page->text()->kirbytext() ?>
+							</div>
             </div>
         </div>
 

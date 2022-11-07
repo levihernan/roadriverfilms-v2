@@ -20,19 +20,18 @@
     <div id="page-wrap" class="imagenes">
         <div class="post text">
             <div class="">
-          		<h1><?php echo $page->title()->html() ?></h1>
-          		<?php echo $page->text()->kirbytext() ?>
+							<div class="section-text">
+								<?php echo $page->text()->kirbytext() ?>
+							</div>
+
+					    <?php foreach(page()->children() as $page):?>
+
+					      <a class="section-link" href="<?= $page->url() ?>">
+					          <?= $page->title() ?>
+					      </a>
+
+					    <?php endforeach ?>
             </div>
-
-				    <?php foreach(page()->children() as $page):?>
-
-				      <a class="section-link" href="<?= $page->url() ?>">
-				        <h2>
-				          <?= $page->title() ?>
-				        </h2>
-				      </a>
-
-				    <?php endforeach ?>
         </div>
 
         <?php if ($page->body()!=""): ?>
