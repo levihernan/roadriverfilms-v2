@@ -5,7 +5,7 @@ fields:
   title:
     label: Title
     type:  text
-  author:
+  extra:
     label: Author
     text: text
   text:

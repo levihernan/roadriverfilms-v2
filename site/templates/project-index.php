@@ -29,8 +29,8 @@
 								<div class="project-index-item">
 						      <a class="section-link" href="<?= $page->url() ?>">
 						          <b><?= $page->title() ?></b>
-											<?php if ($page->author()!=""): ?>
-												<span class="smol"> by <?= $page->author() ?></span>
+											<?php if ($page->extra()!=""): ?>
+												<span class="smol"> <?= $page->extra() ?></span>
 											<?php endif ?>
 						      </a>
 								</div>

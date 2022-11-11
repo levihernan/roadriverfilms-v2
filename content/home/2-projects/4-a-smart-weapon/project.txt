@@ -2,7 +2,7 @@ Title: A Smart Weapon
 
 ----
 
-Author: Carlos M. Quintela
+extra: by Carlos M. Quintela
 
 ----
 
