@@ -39,13 +39,13 @@
             </div>
         </div>
 
-        <?php if ($page->body()!=""): ?>
+        <?php if (page()->body()!=""): ?>
 	        <div class="post text justify">
-	          <?php echo $page->body()->kirbytext() ?>
+	          <?php echo page()->body()->kirbytext() ?>
 	        </div>
         <?php endif ?>
 
-        <?php foreach($page->images()->sortBy('sort', 'asc') as $image): ?>
+        <?php foreach(page()->images()->sortBy('sort', 'asc') as $image): ?>
 	        <div class="post">
 	            <img draggable="false" src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->html() ?>">
 	        </div>

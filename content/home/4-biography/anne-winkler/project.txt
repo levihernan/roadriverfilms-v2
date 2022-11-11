@@ -1,4 +1,4 @@
-Title: Biography
+Title: Anne Winkler
 
 ----
 
@@ -6,4 +6,4 @@ Text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod t
 
 ----
 
-Author: 
+Author:
