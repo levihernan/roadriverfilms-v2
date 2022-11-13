@@ -6,8 +6,12 @@ fields:
     label: Title
     type:  text
   extra:
-    label: Author
+    label: Extra
     text: text
   text:
     label: Text
     type:  textarea
+
+  imgFirst:
+    label: Mobile image first
+    type: toggle

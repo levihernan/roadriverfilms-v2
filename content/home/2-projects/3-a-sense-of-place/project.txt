@@ -2,7 +2,7 @@ Title: A Sense of Place
 
 ----
 
-extra: by Iranian Filmmakers
+Extra: by Iranian Filmmakers
 
 ----
 
@@ -17,3 +17,10 @@ In cooperation with Wim Wenders Stiftung, Pejman Foundation, and La Onda Product
 
 **Production:** 
 Germany, France, Iran
+
+**Release: **
+2023
+
+----
+
+Imgfirst: true

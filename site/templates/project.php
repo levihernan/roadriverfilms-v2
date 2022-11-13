@@ -16,11 +16,24 @@
 	});
 </script>
 
+<?php if( page()->imgFirst()->bool() ): ?>
+	<style media="screen">
+	@media screen and (max-width: 70em) {
+		tr {
+			flex-direction: column-reverse;
+		}
+	}
+	</style>
+<?php endif ?>
+
   <main class="main" role="main">
     <div id="page-wrap" class="imagenes">
             <div class="">
 							<div class="post text">
           		<span class="section-link smol-bold"><?php echo $page->title()->html() ?></span>
+							<?php if ($page->extra()!=""): ?>
+								<span class="smol"> <?= $page->extra() ?></span>
+							<?php endif ?>
 							<div class="section-text">
 								<?php echo $page->text()->kirbytext() ?>
 							</div>

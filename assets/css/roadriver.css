@@ -100,7 +100,7 @@ p.right{
 .section-text{
   font-size: 20px;
   line-height: 20px;
-  padding: 5px;
+  padding: 5px 40px;
 }
 .smol-bold{
   font-weight: 500
@@ -148,7 +148,8 @@ p.right{
     font-size: 20px
   }
   .section-text p {
-    font-size: 18px
+    font-size: 18px;
+    padding: 5px 20px;
   }
   td{
     width: 100vw
