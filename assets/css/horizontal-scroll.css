@@ -31,6 +31,9 @@ html{
     height: 100vh;
     border-top: solid #fff 48px
 }
+td{
+padding: 0
+}
 .text h1{
     font-family: Montserrat;
     font-weight: bold !important;
