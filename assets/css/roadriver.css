@@ -11,6 +11,7 @@ body {
   font-weight: 100;
   font-size: 1em;
   height: 100vh;
+  height: -webkit-fill-available;
 }
 
 #logotype {
@@ -109,6 +110,11 @@ p.right{
 }
 
 @media screen and (max-width: 1100px) {
+
+  html {
+    height: -webkit-fill-available;
+  }
+
   #myVideo{
     /* position: relative; */
     transform: none;
@@ -121,8 +127,8 @@ p.right{
   }
   .home-flexbox{
     flex-direction: column-reverse;
-    height: 100vh;
-    max-height: -webkit-fill-available;
+    height: 100%;
+    height: -webkit-fill-available;
   }
   .content{
     max-width: none;
