@@ -37,6 +37,7 @@
 
 					    <?php endforeach ?>
             </div>
+						<p id="logotype">Road River Films</p>
         </div>
 
         <?php if (page()->body()!=""): ?>

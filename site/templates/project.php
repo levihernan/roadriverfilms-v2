@@ -18,12 +18,13 @@
 
   <main class="main" role="main">
     <div id="page-wrap" class="imagenes">
-        <div class="post text">
             <div class="">
+							<div class="post text">
           		<span class="section-link smol-bold"><?php echo $page->title()->html() ?></span>
 							<div class="section-text">
 								<?php echo $page->text()->kirbytext() ?>
 							</div>
+							<p id="logotype">Road River Films</p>
             </div>
         </div>
 

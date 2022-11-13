@@ -16,7 +16,7 @@ body {
 #logotype {
     font-weight: 200 !important;
     font-family: "Libre Barcode 128 Text";
-    font-size: 3em;
+    font-size: 3em !important;
     text-align: center;
     user-select: none;
     white-space: nowrap;
