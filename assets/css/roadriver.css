@@ -120,6 +120,7 @@ p.right{
   }
   .home-flexbox{
     flex-direction: column-reverse;
+    height: 100vh
   }
   .content{
     max-width: none;
