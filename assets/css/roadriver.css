@@ -19,6 +19,7 @@ body {
     font-size: 3em;
     text-align: center;
     user-select: none;
+    white-space: nowrap;
 }
 
 #myVideo {
@@ -124,8 +125,7 @@ p.right{
   }
   .content{
     max-width: none;
-    /* min-height: 70vh; */
-    padding: 100px 20px;
+    /* padding: 100px 20px; */
   }
   .content p{
     max-width: 700px;
