@@ -24,11 +24,9 @@ html{
     display: -webkit-flex;
     flex-flow: column wrap;
     text-align: center;
-    height: 85vh;
     justify-content: center;
     font-size: 12px;
     line-height: 14px;
-    //padding: 2em;
     position: relative;
     height: 100vh;
     border-top: solid #fff 48px
@@ -98,6 +96,7 @@ table {
         position: relative;
     }
     .text{
+			height: auto;
         min-width: 0px !important;
         max-width: 100vw;
         min-height: 600px;
