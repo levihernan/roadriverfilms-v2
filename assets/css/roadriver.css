@@ -13,8 +13,8 @@ body {
   height: 100vh;
 }
 
-h1 {
-    font-weight: 200;
+#logotype {
+    font-weight: 200 !important;
     font-family: "Libre Barcode 128 Text";
     font-size: 3em;
     text-align: center;
@@ -117,6 +117,9 @@ p.right{
   }
   body{
     height: auto;
+  }
+  .home-flexbox{
+    flex-direction: column-reverse;
   }
   .content{
     max-width: none;

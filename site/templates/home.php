@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<div class="flexbox">
+<div class="flexbox home-flexbox">
 
   <video autoplay muted loop id="myVideo">
     <source src="assets/images/ship.mp4" type="video/mp4">
@@ -13,7 +13,7 @@
   </div>
 
   <div class="content content-right">
-    <h1>Road River Films</h1>
+    <h1 id="logotype">Road River Films</h1>
 
     <?php foreach(page()->children() as $page):?>
 
