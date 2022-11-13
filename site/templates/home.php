@@ -2,7 +2,7 @@
 
 <div class="flexbox home-flexbox">
 
-  <video autoplay muted loop id="myVideo">
+  <video autoplay muted loop playsinline id="myVideo">
     <source src="assets/images/ship.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
