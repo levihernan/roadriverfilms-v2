@@ -10,7 +10,7 @@ body {
   font-family: system-ui;
   font-weight: 100;
   font-size: 1em;
-  height: 100vh;
+  /* height: 100vh; */
   height: -webkit-fill-available;
 }
 
