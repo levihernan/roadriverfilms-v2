@@ -121,7 +121,8 @@ p.right{
   }
   .home-flexbox{
     flex-direction: column-reverse;
-    height: 100vh
+    height: 100vh;
+    max-height: -webkit-fill-available;
   }
   .content{
     max-width: none;
